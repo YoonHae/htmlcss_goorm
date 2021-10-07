@@ -1,0 +1,91 @@
+/********* default style reset  **********/
+h1, h2, p, ul, li {
+	margin: 0;
+	padding:0;
+}
+
+li {
+	list-style-type: none;
+}
+/********* default style reset  **********/
+
+
+
+body {
+	background-color: gray;
+	background-image: url(images/halloween-background.gif);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+div.wrapper {
+	background-color: #BBB;
+	width: 800px;
+	margin: 50px auto;
+}
+
+div.header {
+	background-image: url("images/halloween-header-bg.png");
+	color: white;
+	height: 400px;  /*height 은 왠만하면 지정하지 않는것이 좋긴하다*/
+	text-align: center;
+}
+
+.header > .profile {
+	margin-top: 30px;
+}
+
+.header > h1 {
+	color: violet;
+	margin: 10px 0;
+}
+
+.header > p {
+	background-color: black;
+	color: #888;
+	width: 400px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 10px;
+	
+	border-radius: 5px;
+}
+
+
+.section {
+	background-image: url(images/icon-information.png);
+	background-repeat: no-repeat;
+	background-position: right 30px center;
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+.section > h2 {
+	color: orangered;
+	margin-bottom: 20px;
+	--border-bottom: 2px solid #eee;
+}
+
+.section li {
+	padding: 6px 10px 4px;
+	border-left: 5px solid #ddd;
+}
+
+.section li:hover {
+	color:orangered;
+	border-color: orangered;
+}
+
+
+div.footer {
+	background-color: #111;
+	color: #999;
+	padding: 10px 0;
+	text-align: center;
+	color:  violet;
+	letter-spacing: 5px;
+	text-indent: 5px;
+}
