@@ -1,0 +1,31 @@
+			body {
+				color: black;
+				background-color: orange;
+				background-image: url(images/orange-bg.jpg);
+				
+			}
+			div {
+				background-color: white;
+				width:400px;
+				padding: 50px;
+				margin-left: auto;
+				margin-right: auto;
+				
+				border-width: 10px;
+				border-style:solid;
+				border-color: orange;
+				border-radius: 15px;
+			}
+			h1 {
+				color: orange;
+				border-bottom: 5px solid orange;
+				width: 110px;
+				margin: 0px auto;
+			}
+			
+			ul{
+				background-color: antiquewhite;
+				width: 100px;
+				margin: 30px auto;
+				padding: 5px 30px;
+			}
