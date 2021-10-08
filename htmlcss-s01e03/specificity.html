@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+			
+			/*우선순위 : 태그 < 클래스 < 클래스 중첩*/
+			.wow.wow1 {
+				background-color: yellow;
+			}
+			.wow  {
+				background-color: pink;
+			}
+			
+			
+			h1 {
+				background-color: red;				
+			}
+			
+			/*가상 클래스의 경우 실제 적용된 셀렉터를 명시해야 사용가능하다.*/
+			.wow.wow1:hover {
+				background-color: white;
+			}
+        </style>
+    </head>
+    <body>
+
+        <h1 class="wow wow1">Do My Best!</h1>
+
+    </body>
+</html>
