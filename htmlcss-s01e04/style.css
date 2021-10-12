@@ -1,0 +1,151 @@
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/*CSS Reset*/
+ul, body, p, h1 {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	background-image: url(images/bg.png);
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.wrapper {
+	background-position: center;
+	background-image: url(images/rope.png);
+	width: 800px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+}
+
+.logo {
+	background-image: url(images/logo.png);
+	width: 450px;
+	height: 140px;
+	display: inline-block;
+	margin: 20px 0;
+	text-indent: -9999px;
+}
+
+.menu {
+	margin: 50px auto;
+	width: 300px;
+	color: #666;
+	
+}
+
+.menu li {
+	margin-bottom: 5px;
+}
+
+.menu li a {
+	padding: 5px 0;
+	border: 2px solid;
+	display: block;
+}
+
+.menu li a:hover {
+	color: orange;
+}
+
+
+.section {
+	background-image: url(images/wood.png);
+	background-color: #7d410d;
+	margin: 50px 0;
+	padding: 30px;
+	border: 10px solid #883a1d;
+	color: antiquewhite;
+	border-radius: 10px;
+	box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.6), 
+		inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section h1 {
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-family: 'Mrs Sheppards', cursive;
+	line-height: 174px;
+	background-repeat:  no-repeat;
+	background-position: right center;
+}
+
+.section:nth-child(even) h1{
+	background-position: left center;
+	text-align: right;
+}
+
+.section:nth-child(odd) h1{
+	background-position: right center;
+	text-align: left;
+}
+
+.section h1.animal01 {
+	background-image: url(images/animal01.png);
+	color: orange;
+}
+
+.section h1.animal02 {
+	background-image: url(images/animal02.png);
+	color: pink;
+}
+
+.section h1.animal03 {
+	background-image: url(images/animal03.png);
+	color: orangered;
+}
+
+.section h1.animal04 {
+	background-image: url(images/animal04.png);
+	color: #ddd;
+}
+
+
+.section p {
+	line-height: 1.6;
+
+}
+
+
+.section p strong {
+	background-color: #883a1d;
+	padding: 0 20px;
+	color: lemonchiffon;
+	border-radius: 10px;
+}
+
+
+.footer {
+	background-color: #7d410d;
+	color: pink;
+	text-align: center;
+	border-bottom: 10px solid rgba(0,0,0,0.4);
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.6), 
+		inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer:before {
+	display: block;
+	background-image: url(images/ground.png);
+	background-repeat: repeat-x;
+	height: 50px;
+	content: ' ';
+}
+
+.footer p {
+	
+}
