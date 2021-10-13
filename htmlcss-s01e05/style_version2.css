@@ -1,0 +1,84 @@
+p, h1 {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	background-color: #222;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.section {
+	width: 240px;
+	padding: 30px;
+	text-align: center;
+	overflow: hidden;
+	margin-right:20px;
+	float: left;
+}
+
+.section::last-child {
+	margin-right: 0;
+}
+
+.section.blue {
+	background-color: dodgerblue;
+	color: yellow;
+}
+
+.section.red {
+	background-color: orangered;
+	color: yellow;
+}
+
+.section.yellow {
+	background-color: yellow;
+	color: orangered;
+}
+
+
+
+.section h1 {
+	
+	font-size: 80px;
+	font-family: "Anton", sans-serif;
+	font-weight: normal;
+	line-height: 1;
+	margin-bottom: 30px;
+	display: inline-block;
+	
+}
+
+.section h1 span {
+	font-size: 0.5em;
+	margin: 0 0.35em;
+	opacity: 0.5;
+}
+
+.section h1 span:after {
+	font-size: 0.5em;
+	content: 'kcal';
+	margin: 0 0.1em;
+}
+
+.section-cover {
+	width: 200px;
+	margin: 0 -60px;
+	transition: margin .5s;
+}
+
+.section p {
+	margin: auto;
+	line-height: 1.5;
+}
+
+/*.section-cover 에 있는 transition 설정이 애니메이션효과가 잡힌다.*/
+.section:hover .section-cover {
+	margin: 0 0;
+}
