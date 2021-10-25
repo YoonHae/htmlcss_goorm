@@ -1,6 +1,10 @@
+
+
 CSS 방법론 
 - BEM, OOCSS, SMACSS
 
+CSS 그라데이션 적용 관련 사이트 
+- https://www.colorzilla.com/gradient-editor/
 
 
 #  E02. 반응형 사이드바 레이아웃 | S02. HTML+CSS 중급 | 미운 웹 백조만들기
