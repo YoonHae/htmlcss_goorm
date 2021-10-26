@@ -1,6 +1,15 @@
 index.html 에 float 기반의 grid 구성 소스코드 구성.
 style.css 는 s02e02 의 강사버전(course.html) style.css 에 index.html 의 css 소스코드 포함
 
+	white-space: nowrap;  --줄바꿈 막기
+	overflow: hidden;  -- 넘치는거 가리기
+	text-overflow: ellipsis;  -- 넘치는 글자 ... 처리
+	
+	-- line-height * 표현할 줄 수 만큼 height 에 em으로 표현하면 이쁘게 표현가능
+	line-height: 1.6;
+	height: 8em;
+	overflow: hidden;
+
 #  E03. float기반의 그리드시스템 | S02. HTML+CSS 중급 | 미운 웹 백조만들기
 
 ## 동영상 강의 바로가기
